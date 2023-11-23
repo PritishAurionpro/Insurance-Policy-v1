@@ -36,6 +36,9 @@ import { AddagentComponent } from './addagent/addagent.component';
 import { UpdateAgentComponent } from './update-agent/update-agent.component';
 import { DeleteAgentComponent } from './delete-agent/delete-agent.component';
 import { FormsModule } from '@angular/forms';
+import { AddInsurancePolicyComponent } from './add-insurance-policy/add-insurance-policy.component';
+import { UpdateInsurancePolicyComponent } from './update-insurance-policy/update-insurance-policy.component';
+import { DeleteInsurancePolicyComponent } from './delete-insurance-policy/delete-insurance-policy.component';
 
 
 @NgModule({
@@ -67,6 +70,9 @@ import { FormsModule } from '@angular/forms';
     AddagentComponent,
     UpdateAgentComponent,
     DeleteAgentComponent,
+    AddInsurancePolicyComponent,
+    UpdateInsurancePolicyComponent,
+    DeleteInsurancePolicyComponent,
     
   ],
   imports: [

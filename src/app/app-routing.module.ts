@@ -23,6 +23,9 @@ import { DeleteInsuranceSchemeComponent } from './delete-insurance-scheme/delete
 import { AddInsurancePlanComponent } from './add-insurance-plan/add-insurance-plan.component';
 import { UpdateInsurancePlanComponent } from './update-insurance-plan/update-insurance-plan.component';
 import { DeleteInsurancePlanComponent } from './delete-insurance-plan/delete-insurance-plan.component';
+import { AddInsurancePolicyComponent } from './add-insurance-policy/add-insurance-policy.component';
+import { UpdateInsurancePolicyComponent } from './update-insurance-policy/update-insurance-policy.component';
+import { DeleteInsurancePolicyComponent } from './delete-insurance-policy/delete-insurance-policy.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -47,7 +50,10 @@ const routes: Routes = [
   { path: 'deleteInsuranceScheme', component:DeleteInsuranceSchemeComponent},
   { path: 'addInsurancePlan',component:AddInsurancePlanComponent},
   { path: 'updateInsurancePlan', component:UpdateInsurancePlanComponent},
-  { path: 'deleteInsuranceplan',component:DeleteInsurancePlanComponent}
+  { path: 'deleteInsuranceplan',component:DeleteInsurancePlanComponent},
+  { path: 'addInsurancePolicy', component:AddInsurancePolicyComponent},
+  { path: 'updateInsurancePolicy', component:UpdateInsurancePolicyComponent},
+  { path: 'deleteInsuranePolicy', component:DeleteInsurancePolicyComponent},
   
 
 ];
